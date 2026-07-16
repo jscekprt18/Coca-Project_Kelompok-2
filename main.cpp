@@ -1,3 +1,5 @@
+// Kelompok 2 - COCA Coffe Shop & Roastery
+
 /*
  =====================================================================
   COCA COFFEE SHOP - 3D WALKTHROUGH (GLUT / legacy OpenGL, C++)
