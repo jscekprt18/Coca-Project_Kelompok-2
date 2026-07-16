@@ -1,0 +1,14 @@
+# Folder hasil build Code::Blocks
+bin/
+obj/
+
+# File hasil compile
+*.o
+*.obj
+*.exe
+*.out
+
+# File sementara/backup Code::Blocks
+*.depend
+*.layout
+*~
