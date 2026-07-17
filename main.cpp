@@ -639,9 +639,9 @@ void buildBuilding(){
     wallAlongZ(PEGX0, 23,34, 0,0, texWall);     // solid (Pegawai hanya diakses lewat lorong kanan)
 
     // ===================== GERBANG DEPAN =====================
-    drawBox(3.0f,4.0f, 0,3.2f, -3.0f,-1.8f, texBrick);   // pilar kiri
-    drawBox(8.0f,9.0f, 0,3.2f, -3.0f,-1.8f, texBrick);   // pilar kanan
-    drawBox(3.0f,9.0f, 3.2f,3.6f, -3.0f,-1.8f, texBrick,1.0f,false); // balok atas gerbang
+    drawBox(3.0f,3.3f, 0,3.2f, -3.0f, -0.2f, texBrick);   // pilar kiri
+    drawBox(8.0f,8.3f, 0,3.2f, -3.0f,-0.2f, texBrick);   // pilar kanan
+    drawBox(3.0f,8.3f, 3.2f,3.6f, -3.0f,-0.2f, texBrick,1.0f,false); // balok atas gerbang
     drawFrontSignage();   // papan nama "COCA" + tanaman + meja outdoor (foto 6)
 
     // ===================== HALAMAN LUAR (rumput) =====================
