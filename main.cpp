@@ -796,8 +796,8 @@ void updateMovement(){
     float dx=0, dz=0;
     if(keyDown['w']||keyDown['W']){ dx += fwdX*speed;  dz += fwdZ*speed; }
     if(keyDown['s']||keyDown['S']){ dx -= fwdX*speed;  dz -= fwdZ*speed; }
-    if(keyDown['a']||keyDown['A']){ dx -= rightX*speed; dz -= rightZ*speed; }
-    if(keyDown['d']||keyDown['D']){ dx += rightX*speed; dz += rightZ*speed; }
+    if(keyDown['d']||keyDown['D']){ dx -= rightX*speed; dz -= rightZ*speed; }
+    if(keyDown['a']||keyDown['A']){ dx += rightX*speed; dz += rightZ*speed; }
 
     if(dx!=0 || dz!=0) tryMove(dx,dz);
 
